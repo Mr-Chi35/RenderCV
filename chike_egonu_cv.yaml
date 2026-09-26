@@ -1,28 +1,125 @@
 cv:
   name: Chike Egonu
-  location: Brighton, UK
-  phone: +44 123 456 7890
-  email: chikeegonu28@gmail.com
-  website: https://rendercv.com/
+  location: Brighton, Kemptown, BN2 1LB, United Kingdom
+  email: chikeegonu@gmail.com
+  website: https://mrchike.github.io/portfolio
   social_networks:
     - network: LinkedIn
-      username: rendercv
+      username: chikeegonu
     - network: GitHub
-      username: rendercv
+      username: MrChike
   sections:
-    Welcome to RenderCV:
-      - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-      - See the [documentation](https://docs.rendercv.com) for more details.
-    education:
-      - institution: Princeton University
-        area: Computer Science
-        degree: PhD
-        date:
-        start_date: 2018-09
-        end_date: 2023-05
-        location: Princeton, NJ
-        summary:
+    professional_summary:
+      - >-
+        Software Engineer with 5+ years of experience creating scalable backend
+        systems, microservices, and APIs. I specialize in writing efficient,
+        maintainable code and implementing comprehensive testing strategies to
+        ensure system reliability. Skilled in leveraging cloud platforms and
+        building and maintaining high-performing systems. Dedicated to making a
+        real impact through tech, continuously expanding my technical and soft
+        skills, and contributing to a collaborative and respectful environment.
+
+    skills:
+      - 'Python | Django | FastAPI'
+      - 'JavaScript | React'
+      - 'PostgreSQL | MongoDB'
+      - 'Docker | Kubernetes'
+      - 'Linux | Git'
+      - CI/CD
+      - 'AWS | Azure'
+      - 'Unit | Integration Testing'
+
+    experience:
+      - company: Plaex Technologies
+        position: Software Engineer
+        location: Remote, Netherlands
+        start_date: 2024-07
+        end_date: 2025-01
+        summary: >-
+          GARBY is an AI-powered smart waste management system that uses machine
+          learning and IoT to automate waste sorting, monitor recycling
+          operations in real time, and track sustainability performance through
+          an interactive dashboard.
         highlights:
-          - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
-          - "Advisor: Prof. Sanjeev Arora"
-          - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
+          - Designed and implemented machine learning-based waste sorting algorithms to automatically classify and sort waste, improving material purity by 30% and increasing recycling rates by 25%.
+          - Developed and deployed a RESTful API to collect and process real-time data from smart waste management bins, enabling clients to track sustainability impacts through an interactive dashboard and reducing operational costs by 15%.
+          - Automated sorting processes, reducing human error by 40% and waste pick-up costs by 20%.
+          - Integrated WebSockets and RabbitMQ for real-time data transmission from bins to AWS IoT Core, resulting in 20% faster data processing and decision-making.
+          - Used Agile and TDD practices with robust error handling and continuous integration to deliver scalable systems that met 100% of client performance KPIs.
+
+      - company: ASML
+        position: Software Engineer (contracted via Luxoft Netherlands B.V.)
+        location: Remote, Netherlands
+        start_date: 2023-01
+        end_date: 2024-01
+        summary: >-
+          TWINSCAN EXE:5000 is an EUV semiconductor lithography system that
+          prints extremely small patterns onto silicon wafers for next-generation
+          computer chips.
+        highlights:
+          - Developed and maintained EXE lithography embedded system software using Python, improving chip manufacturing efficiency by 20%; worked with engineers on C++ components to reduce integration time by 15%.
+          - Collaborated with cross-functional Agile teams in sprint planning and peer reviews, delivering key milestones on time and meeting 100% of performance targets.
+          - Optimized algorithms to reduce processing time by 30%, improving responsiveness for next-generation semiconductor devices.
+          - Implemented and maintained automated unit testing, improving code coverage by 25% and reducing post-deployment bug reports by 40%.
+
+      - company: Venture Garden Group
+        position: Software Engineer
+        location: Lagos, Nigeria
+        start_date: 2020-03
+        end_date: 2023-01
+        summary: >-
+          TRAIL is a data analytics and business intelligence platform that
+          transforms real-time business data into KPIs and presents insights in
+          interactive Power BI dashboards.
+        highlights:
+          - Designed real-time ETL pipelines with Apache Flink to process data streams and load KPIs into Power BI, improving reporting speed by 40%.
+          - Developed scalable Python backend systems, improving API performance by 35%.
+          - Integrated the Power BI SDK to visualize company KPIs and support data-driven decisions.
+          - Collaborated with cross-functional teams on data-driven product enhancements, contributing to a 15% increase in product adoption.
+          - Conducted design reviews and wrote technical documentation to support long-term scalability and future development.
+          - Mentored junior developers, increasing team efficiency by 30% and improving code quality.
+          - Refactored an inherited buggy solution, improving performance and resolving $50K in outstanding client debt.
+          - Migrated an application from on-premises servers to Azure with zero downtime and no data loss.
+
+      - company: Quintessence
+        position: Software Engineer Intern
+        location: Lagos, Nigeria
+        start_date: 2016-06
+        end_date: 2017-05
+        summary: >-
+          QUINTESSENCE is an e-commerce application built with Python and Django
+          that uses distributed task processing to handle large customer requests.
+        highlights:
+          - Built scalable Python and Django backend systems using Celery and RabbitMQ to distribute data processing tasks for parallel execution.
+          - Implemented CI/CD workflows with Docker, Jenkins, and Azure DevOps, reducing deployment times by 50%.
+
+    personal_projects:
+      - ELEMES
+      - SPOTIFY FRAUD DETECT (SFD)
+
+    education:
+      - institution: University of Hull
+        area: Artificial Intelligence and Data Science
+        degree: MSc
+        location: United Kingdom
+      - institution: Madonna University
+        area: Accounting
+        degree: BSc
+        location: Lagos, Nigeria
+        date: '2013'
+
+    certifications:
+      - Python for Data Science, AI & Development
+      - Databases and SQL for Data Science with Python
+      - Data Analysis with Python
+      - Machine Learning with Python
+      - Deep Learning with Keras and TensorFlow
+      - Advanced React
+      - IBM Data Science Professional
+
+    open_source_contributions:
+      - TensorFlow
+
+    additional_profiles:
+      - '[LeetCode](https://leetcode.com/u/MrChike)'
+      - '[Dev.to](https://dev.to/mrchike)'
